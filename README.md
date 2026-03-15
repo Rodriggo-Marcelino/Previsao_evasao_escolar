@@ -7,8 +7,6 @@
 
 Este é o repositório oficial do meu Trabalho de Conclusão de Curso (TCC) em Ciência da Computação. O projeto consiste no desenvolvimento de um pipeline completo de dados e na aplicação de modelos de **Machine Learning** para a predição da evasão escolar no Brasil, utilizando dados públicos oficiais.
 
-![Evasão Escolar](https://via.placeholder.com/800x200.png?text=Previsão+de+Evasão+Escolar+com+Machine+Learning)
-
 ## 📝 Índice
 
 - [Visão Geral do Projeto](#-visão-geral-do-projeto)
