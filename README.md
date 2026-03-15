@@ -62,27 +62,29 @@ Os dados da camada Bronze são limpos, padronizados e enriquecidos. Aqui, as tab
 A camada final, pronta para consumo. Os dados da matrícula são combinados com as informações da escola enriquecida e os dados socioeconômicos, gerando o **dataset analítico** para a modelagem.
 - `dataset_evasao.parquet` (Dataset final com a variável alvo e todas as features)
 
-## 📁 Estrutura do Repositório
+# Estrutura do Repositório
+
+```
 tcc-evasao-escolar/
 │
-├── data/ # Diretório para dados (ignorado pelo git)
-│ ├── raw/ # Dados originais (fonte primária)
-│ ├── bronze/ # Dados brutos carregados
-│ ├── silver/ # Dados tratados e relacionados
-│ └── gold/ # Dataset final para Machine Learning
+├── data/                    # Diretório para dados (ignorado pelo git)
+│   ├── raw/                  # Dados originais (fonte primária)
+│   ├── bronze/                # Dados brutos carregados
+│   ├── silver/                # Dados tratados e relacionados
+│   └── gold/                  # Dataset final para Machine Learning
 │
-├── notebooks/ # Jupyter Notebooks com todo o processo
-│ ├── 01_elt_pipeline.ipynb # Pipeline de Extração, Carga e Transformação
-│ ├── 02_eda.ipynb # Análise Exploratória dos Dados
-│ └── 03_modelagem.ipynb # Treinamento, avaliação e seleção de modelos
+├── notebooks/                # Jupyter Notebooks com todo o processo
+│   ├── 01_elt_pipeline.ipynb  # Pipeline de Extração, Carga e Transformação
+│   ├── 02_eda.ipynb           # Análise Exploratória dos Dados
+│   └── 03_modelagem.ipynb     # Treinamento, avaliação e seleção de modelos
 │
-├── src/ # Código-fonte reutilizável
-│ └── utils.py # Funções auxiliares (ex: carregamento de dados)
+├── src/                      # Código-fonte reutilizável
+│   └── utils.py               # Funções auxiliares (ex: carregamento de dados)
 │
-├── .gitignore # Arquivos e pastas ignorados pelo Git
-├── README.md # Documentação principal do projeto (este arquivo)
-└── requirements.txt # Dependências do projeto
-
+├── .gitignore                 # Arquivos e pastas ignorados pelo Git
+├── README.md                  # Documentação principal do projeto (este arquivo)
+└── requirements.txt           # Dependências do projeto
+```
 
 ## 🛠️ Tecnologias Utilizadas
 
