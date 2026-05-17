@@ -76,27 +76,29 @@ Dataset analítico final, pronto para modelagem. Contém a variável‑alvo (eva
 ---
 
 ## 📂 Estrutura do Repositório
+```
 tcc-evasao-escolar/
 │
-├── data/ # Diretório de dados (ignorado pelo Git)
-│ ├── raw/ # Dados originais (CSV)
-│ ├── bronze/ # Dados brutos em Parquet
-│ ├── silver/ # Dados tratados e relacionados
-│ └── gold/ # Dataset final para modelagem
+├── data/
+│   ├── raw/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
 │
-├── notebooks/ # Jupyter Notebooks
-│ ├── 01_elt_pipeline.ipynb # Pipeline de ELT
-│ ├── 02_eda.ipynb # Análise exploratória
-│ └── 03_modelagem.ipynb # Treinamento, avaliação e seleção
+├── notebooks/
+│   ├── 01_elt_pipeline.ipynb
+│   ├── 02_eda.ipynb
+│   └── 03_modelagem.ipynb
 │
-├── src/ # Código-fonte reutilizável
-│ └── utils.py # Funções auxiliares (carregamento, etc.)
+├── src/
+│   └── utils.py
 │
-├── figures/ # Gráficos e visualizações gerados
+├── figures/
 │
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
