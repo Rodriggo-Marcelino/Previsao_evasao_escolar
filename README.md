@@ -105,7 +105,7 @@ tcc-evasao-escolar/
 ## 🤖 Metodologia de Modelagem
 
 ### 1. Definição da Variável‑Alvo
-A variável `target_evasao` é definida como **1** se o aluno não possui matrícula no ano seguinte, e **0** caso contrário.
+
 
 ### 2. Pré‑processamento
 - Remoção de *features* usadas na criação do *target* para evitar *leakage*.
